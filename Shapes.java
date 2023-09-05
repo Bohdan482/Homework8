@@ -12,7 +12,7 @@ public class Shapes {
         this.name = getName();
     }
 
-    public String print(String className, String name){
-        return "Shape " + className + ", name is " + name;
+    public String print(String name){
+        return "Shape's name is " + name;
     }
 }

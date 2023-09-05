@@ -7,10 +7,10 @@ public class ShapesTest{
         Quad quad = new Quad();
         Trapeze trapeze = new Trapeze();
         Triangle triangle = new Triangle();
-        System.out.println(oval.print("oval", "Oval"));
-        System.out.println(circle.print("circle", "Circle"));
-        System.out.println(quad.print("quad", "Quad"));
-        System.out.println(trapeze.print("trapeze", "Trapeze"));
-        System.out.println(triangle.print("triangle", "Triangle"));
+        System.out.println(oval.print(oval.getName()));
+        System.out.println(circle.print(circle.getName()));
+        System.out.println(quad.print(quad.getName()));
+        System.out.println(trapeze.print(trapeze.getName()));
+        System.out.println(triangle.print(triangle.getName()));
     }
 }
