@@ -8,11 +8,12 @@ public class Shapes {
         return name;
     }
 
-    public Shapes(){
-        this.name = getName();
+    public Shapes() {
     }
 
-    public String print(String className, String name){
-        return "Shape " + className + ", name is " + name;
+    public String print(Shapes shape) {
+        return "Shape's name is " + shape.getName();
     }
 }
+
+
